@@ -441,8 +441,8 @@ speaker:
     dac_type: external
     i2s_dout_pin: GPIO15
     i2s_audio_id: audio_i2s
-    i2s_comm_fmt: lsb
-    channel: mono
+    i2s_comm_fmt: i2s_lsb
+    channel: left          # or 'right', pick whichever channel your DAC uses
 
 media_player:
   - platform: speaker
